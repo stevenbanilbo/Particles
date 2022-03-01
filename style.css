@@ -5,8 +5,7 @@ body {
 }
 
 .background {
-  background-color: yellowgreen;  
-  position: absolute;
+  background-color: yellowgreen;
   display: block;
   top: 0;
   left: 0;
