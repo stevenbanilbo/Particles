@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-.background {
+.container {
   background-color:#203354;
   display: block;
   width:100%;
