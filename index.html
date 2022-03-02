@@ -9,12 +9,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <canvas class="container">
+       
+      <div id="particles-js"></div>
 
-        </canvas>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
         <script>
+          particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('callback - particles.js config loaded');
+          });
+        </script>
+        
+        
+        
+        <!-- <script>
             window.onload = function() {
             Particles.init({
               selector: '.container',
@@ -23,11 +31,30 @@
               speed: 1.44,
               minDistance: 125,
               color: '#FFA500',
-              connectParticles: true
+              connectParticles: true,
+              interactivity: {
+              detect_on: '.container',
+              events: {
+                          onhover: {
+                          enable: false,
+                          mode: repulse
+                          }
+                      }
+
+                  }
            
+
+
+
+
+
+
+
+
+
             });
           };
-          </script>
+          </script> -->
       
     </body>
 </html>

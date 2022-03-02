@@ -2,10 +2,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color:#203354;
 }
 
-.container {
-  background-color:#203354;
+#particle-js {
+  
   display: block;
   width:100%;
   height: 100vh;
